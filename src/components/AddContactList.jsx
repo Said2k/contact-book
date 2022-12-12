@@ -7,7 +7,7 @@ const AddContactList = ({book,deleteContact, bookEdit,setBookEdit,handleEdit,han
     const handleShow = () => setShow(true);
 
 
-    console.log(book);
+    // console.log(book);
 
     
 

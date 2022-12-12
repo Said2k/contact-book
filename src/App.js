@@ -30,9 +30,10 @@ const App = () => {
             }
             return item
         })
-        console.log(newContact);
-        book.push(newBook)
-        book.splice(newBook.id , 2 )
+        setBook(newContact)
+        // console.log(newContact);
+        // book.push(newBook)
+        // book.splice(newBook.id , 2 )
     }
     return (
      
